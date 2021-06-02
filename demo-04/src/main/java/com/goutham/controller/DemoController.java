@@ -12,4 +12,8 @@ public class DemoController {
     public String sayHello(){
         return "Hello to ALl, By Spring Boot";
     }
+    @GetMapping("/welcome")
+    public String sayWelcome(){
+        return "Welcome to ALl, By Spring Boot";
+    }
 }
